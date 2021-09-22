@@ -22,8 +22,9 @@ def download_one(url):
 
 # lógica principal
 def main():
-    for contador in range(1,5):
-        download_one("https://keen-heyrovsky-4a34fe.netlify.app/"+str(contador)+".jpeg")
+    print("Iniciando o download...")
+    for cont in range(1,5):
+        download_one("https://keen-heyrovsky-4a34fe.netlify.app/"+str(cont)+".jpeg")
 
 if __name__ == '__main__':
     main()
